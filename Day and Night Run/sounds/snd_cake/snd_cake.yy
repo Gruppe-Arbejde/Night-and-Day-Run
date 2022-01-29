@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 1,
-  "volume": 1.0,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_cake",
-  "duration": 0.0,
+  "duration": 0.45102,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
