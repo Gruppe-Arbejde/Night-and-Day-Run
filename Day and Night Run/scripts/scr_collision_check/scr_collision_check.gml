@@ -1,11 +1,15 @@
-if (place_meeting(x, y + vspd, obj_block))
-{
-	while (!place_meeting(x, y+sign(vspd), obj_block))
+function scr_collision_check() {
+	if (place_meeting(x, y + vspd, obj_block))
 	{
-		y += sign(vspd);
-	}
+		while (!place_meeting(x, y+sign(vspd), obj_block))
+		{
+			y += sign(vspd);	
+		}
 	
-	vspd = 0;
-}
+		vspd = 0;
+	}
 
-y += vspd;
+	y += vspd;
+
+
+}

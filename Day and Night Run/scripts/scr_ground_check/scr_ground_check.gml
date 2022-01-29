@@ -1,39 +1,43 @@
-if (duckKey)
-{
-	ducking = true;
-	jumping = false;
-	falling = true;
-}
-
-if (place_meeting(x,y + 1, obj_block))
-{
-	// We're touching the ground
-	vspd = 0;
-	jumping = false;
-	falling = false;
-	
-	if (!duckKey)
-	 ducking = false;
-	 
-	// If the player wants to jump
-	if ((jumpKey || jumpKeyAlt) && !duckKey)
+function scr_ground_check() {
+	if (duckKey)
 	{
-		jumping = true;
-		vspd = -jspd;
+		ducking = true;
+		jumping = false;
+		falling = true;
 	}
-}
-else
-{
-	if (ducking)
+
+	if (place_meeting(x, y + 1, obj_block))
 	{
-		vspd += grav * 4;
+		// we're touching the ground
+		vspd = 0;
+		jumping = false;
+		falling = false;
+	
+		if (!duckKey)
+			ducking = false;
+		
+		// if the player wants to jump
+		if ((jumpKey || jumpKeyAlt) && !duckKey)
+		{
+				jumping = true;
+				vspd = -jspd;
+		}
 	}
 	else
 	{
-		if (vspd < termVelocity)
-			vspd += grav;
-		
-		if (sign(vspd) == 1)
-			falling = true;
+		if (ducking)
+		{
+			vspd += grav * 4;	
+		}
+		else
+		{
+			if (vspd < termVelocity)
+				vspd += grav;
+			
+			if (sign(vspd) == 1)
+				falling = true;
+		}
 	}
+
+
 }
