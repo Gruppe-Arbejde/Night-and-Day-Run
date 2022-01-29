@@ -19,8 +19,9 @@ function scr_ground_check() {
 		// if the player wants to jump
 		if ((jumpKey || jumpKeyAlt) && !duckKey)
 		{
-				jumping = true;
-				vspd = -jspd;
+			audio_play_sound(snd_jump, 100, false);
+			jumping = true;
+			vspd = -jspd;
 		}
 	}
 	else
