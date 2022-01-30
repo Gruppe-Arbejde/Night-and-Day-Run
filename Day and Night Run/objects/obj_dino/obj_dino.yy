@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_dino_stand",
-    "path": "sprites/spr_dino_stand/spr_dino_stand.yy",
+    "name": "spr_player_run",
+    "path": "sprites/spr_player_run/spr_player_run.yy",
   },
   "solid": false,
   "visible": true,

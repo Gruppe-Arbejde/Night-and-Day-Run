@@ -1,4 +1,4 @@
-global.speedModifier += 0.0005;
+global.speedModifier += 0.00005;
 score += 1 * global.speedModifier;
 
 if (score = 100)

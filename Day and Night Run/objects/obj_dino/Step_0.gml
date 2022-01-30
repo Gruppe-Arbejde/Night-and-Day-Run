@@ -6,15 +6,20 @@ scr_jump_check();
 scr_collision_check();
 scr_set_sprite();
 
-if(melee)
-{
-	obj_sword.sprite_index = spr_weapon_Animation;
-	
-	
-	alarm_set(0,5)
-}
 
-if(meleeR)
-{
-	obj_sword.sprite_index = spr_weapon;
-}
+
+//if(melee)
+//{
+//	obj_sword.sprite_index = spr_weapon_Animation;
+//	obj_dino.sprite_index = spr_player_attack
+	
+	
+	
+//	alarm_set(0,5)
+//}
+
+//if(meleeR)
+//{
+//	obj_dino.sprite_index = spr_player_run
+//	obj_sword.sprite_index = spr_weapon;
+//}

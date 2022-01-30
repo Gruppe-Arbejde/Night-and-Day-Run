@@ -10,3 +10,8 @@ termVelocity = 50;
 weapon = instance_create_depth(x,y, depth - 1, obj_sword);
 weapon_x_offset = 8;
 weapon_y_offset = 4;
+
+
+//var check;
+
+//check = false;
