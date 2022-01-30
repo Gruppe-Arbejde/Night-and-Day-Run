@@ -12,6 +12,7 @@ function scr_ground_check() {
 		vspd = 0;
 		jumping = false;
 		falling = false;
+		
 	
 		if (!duckKey)
 			ducking = false;
@@ -24,6 +25,8 @@ function scr_ground_check() {
 			vspd = -jspd;
 		}
 	}
+	
+	
 	else
 	{
 		if (ducking)

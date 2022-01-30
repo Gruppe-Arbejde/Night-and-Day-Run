@@ -1,4 +1,4 @@
-grav = 7;
+grav = 5;
 jspd = 50;
 vspd = 0;
 jumping = false;
