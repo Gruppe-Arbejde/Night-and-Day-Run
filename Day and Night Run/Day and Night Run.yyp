@@ -42,7 +42,7 @@
     {"id":{"name":"spr_cactus_small","path":"sprites/spr_cactus_small/spr_cactus_small.yy",},"order":3,},
     {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},"order":12,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":7,},
-    {"id":{"name":"TallZombieIdleAnimation","path":"sprites/TallZombieIdleAnimation/TallZombieIdleAnimation.yy",},"order":29,},
+    {"id":{"name":"spr_TallZombieIdleAnimation","path":"sprites/spr_TallZombieIdleAnimation/spr_TallZombieIdleAnimation.yy",},"order":29,},
     {"id":{"name":"obj_dino","path":"objects/obj_dino/obj_dino.yy",},"order":4,},
     {"id":{"name":"obj_cake","path":"objects/obj_cake/obj_cake.yy",},"order":1,},
     {"id":{"name":"scr_jump_check","path":"scripts/scr_jump_check/scr_jump_check.yy",},"order":3,},
