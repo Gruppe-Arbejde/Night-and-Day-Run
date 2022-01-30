@@ -1,4 +1,4 @@
-speed = -20 * global.speedModifier;
+speed = -15 * global.speedModifier;
 
 if (x < -100)
 {
