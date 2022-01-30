@@ -19,23 +19,20 @@ function scr_set_sprite() {
 	{
 		obj_dino.sprite_index = spr_player_attack
 	
-		image_speed = 1;
+		image_speed = 3;
 	
-		if(image_index == 3)
-		{
-		obj_dino.alarm_set(0,5)
-		}
 		
-		if(image_index == 4)
-		{
-		obj_dino.sprite_index = spr_player_run;
 		
-		}
+		
 	}
 
 if(sprite_index == spr_player_attack)
 {
 	if(image_index == 4)
+		{
+			obj_dino.alarm_set(0,5)
+		}
+	if(image_index == 5)
 	{
 		
 		if (!jumping && !falling && !ducking && !melee)
