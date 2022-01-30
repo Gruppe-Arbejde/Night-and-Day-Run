@@ -9,14 +9,10 @@ if (other.object_index != obj_cake)
 	grav = 0;
 	
 	
-	if (global.bday)
-	{
-		sprite_index = spr_dino_dead_bday;
-	}
-	else
-	{
-		sprite_index = spr_dino_dead;
-	}
+	
+	
+		sprite_index = spr_player_dead;
+	
 
 	if (!instance_exists(obj_replay))
 		instance_create_layer(room_width/2, room_height/2 + 50, "Instances", obj_replay);

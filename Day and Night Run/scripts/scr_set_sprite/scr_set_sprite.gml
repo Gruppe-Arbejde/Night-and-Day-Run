@@ -10,12 +10,20 @@ function scr_set_sprite() {
 	
 	if (ducking)
 	{	
-	sprite_index = spr_dino_duck;
+	sprite_index = spr_player_duck;
 		
 	
 	image_speed = 2;
 	}
-
+	
+	if (duckKeyR)
+	{	
+	sprite_index = spr_player_run;
+		
+	
+	image_speed = 2;
+	}
+	
 	if(melee)
 	{
 		if(sprite_index != spr_player_attack)
