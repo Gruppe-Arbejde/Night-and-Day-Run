@@ -1,7 +1,7 @@
 randomize();
 var count = irandom_range(1, 2);
 
-var i = instance_create_layer(room_width + 100, room_height - 75, "Instances", obj_obstacle);
+var i = instance_create_layer(room_width + 100, room_height - 215, "Instances", obj_obstacle); //original width = 100 height = - 75
 i.sprite_index = choose(spr_cactus_small, spr_cactus_large, spr_pterodactyl);
 switch (i.sprite_index)
 {
@@ -22,7 +22,7 @@ switch (i.sprite_index)
 	
 	default:
 	i.image_speed = 1;
-	i.y = choose(room_height - 85, room_height - 145, room_height - 180);
+	i.y = choose(room_height - 185, room_height - 245, room_height - 280);
 }
 
 if (global.gameOver) exit;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Foreground",
-    "path": "sprites/Foreground/Foreground.yy",
+    "name": "Trees",
+    "path": "sprites/Trees/Trees.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ground",
+  "name": "obj_trees",
   "tags": [],
   "resourceType": "GMObject",
 }
