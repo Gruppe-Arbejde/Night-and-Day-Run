@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Clouds",
-    "path": "sprites/Clouds/Clouds.yy",
+    "name": "Clouds31",
+    "path": "sprites/Clouds31/Clouds31.yy",
   },
   "solid": false,
   "visible": true,

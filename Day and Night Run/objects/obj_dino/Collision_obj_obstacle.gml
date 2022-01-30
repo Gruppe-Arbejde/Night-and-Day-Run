@@ -1,7 +1,7 @@
 if (other.object_index != obj_cake)
 {
-	if (!audio_is_playing(snd_game_over) && !global.gameOver)
-		audio_play_sound(snd_game_over, 100, false);
+	if (!audio_is_playing(snd_crash) && !global.gameOver)
+		audio_play_sound(snd_crash, 100, false);
 	
 	global.gameOver = true;
 	global.speedModifier = 0;
