@@ -8,6 +8,7 @@ if (other.object_index != obj_cake)
 	image_speed = 0;
 	grav = 0;
 	
+	audio_stop_sound(Night_and_Day_Runner_Theme_V2)
 	
 	
 	
